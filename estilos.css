@@ -1,0 +1,99 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+/* Contenedor central */
+#contenedor {
+  width: 90%;
+  margin: auto;
+  background: #d3d3d3;
+}
+
+/* Encabezado */
+#encabezado {
+  background: #ffeb3b; /* amarillo */
+  text-align: center;
+  padding: 10px;
+}
+#encabezado h1 {
+  margin: 0;
+  color: #800080; /* morado */
+  font-size: 28px;
+}
+
+/* Menú superior */
+#menu1 {
+  background: #555;
+  text-align: center;
+  padding: 10px;
+}
+#menu1 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+#menu1 a:hover {
+  text-decoration: underline;
+}
+
+/* Menú lateral izquierdo */
+#izquierda {
+  width: 20%;
+  float: left;
+  background: #666;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  min-height: 500px;
+}
+#izquierda a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+#izquierda a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+#derecha {
+  width: 75%;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #c8c2b8;
+}
+#derecha h1 {
+  text-align: center;
+}
+#derecha h3 {
+  text-align: center;
+  font-weight: normal;
+}
+#derecha p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.banner {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.exito {
+  display: block;
+  margin: 30px auto;
+  width: 120px;
+}
+
+/* Pie de página */
+#piepagina {
+  clear: both;
+  background: #800080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
